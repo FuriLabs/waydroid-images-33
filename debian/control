@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/furilabs/waydroid-images-33
 Vcs-Git: https://github.com/furilabs/waydroid-images-33.git
 
 Package: waydroid-system-33
-Architecture: any
+Architecture: arm64
 Depends: ${misc:Depends}
 Provides: waydroid-system-image
 Description: Waydroid System Image
@@ -18,7 +18,7 @@ Description: Waydroid System Image
  Waydroid.
 
 Package: waydroid-vendor-33
-Architecture: any
+Architecture: arm64
 Depends: ${misc:Depends}
 Provides: waydroid-vendor-image
 Description: Waydroid Vendor Image - gsi-33
