@@ -1,20 +1,26 @@
-Source: android-system-gsi-32-bin
+Source: waydroid-images-33
 Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
 Section: misc
 Priority: optional
-Build-Depends: debhelper (>= 13),
+Build-Depends: debhelper-compat (= 13),
                curl,
                tar,
-               xz-utils,
-               android-sdk-libsparse-utils
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/droidian/android-system-gsi-32-bin
-Vcs-Git: https://github.com/droidian/android-system-gsi-32-bin.git
+Vcs-Browser: https://github.com/furilabs/waydroid-images-33
+Vcs-Git: https://github.com/furilabs/waydroid-images-33.git
 
-Package: android-system-gsi-32
-Architecture: arm64
+Package: waydroid-system-33
+Architecture: any
 Depends: ${misc:Depends}
-Provides: android-system-image
-Description: Android System Image - gsi-32
+Provides: waydroid-system-image
+Description: Waydroid System Image
  This package provides a working Android system image for
- devices capable of booting GSI (Generic System Images).
+ Waydroid.
+
+Package: waydroid-vendor-33
+Architecture: any
+Depends: ${misc:Depends}
+Provides: waydroid-vendor-image
+Description: Waydroid Vendor Image - gsi-33
+ This package provides a working Android vendor image for
+ Waydroid.
