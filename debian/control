@@ -11,7 +11,8 @@ Vcs-Git: https://github.com/furilabs/waydroid-images-33.git
 
 Package: waydroid-system-33
 Architecture: arm64
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+         waydroid
 Provides: waydroid-system-image
 Description: Waydroid System Image
  This package provides a working Android system image for
@@ -19,7 +20,8 @@ Description: Waydroid System Image
 
 Package: waydroid-vendor-33
 Architecture: arm64
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
+         waydroid
 Provides: waydroid-vendor-image
 Description: Waydroid Vendor Image - gsi-33
  This package provides a working Android vendor image for
