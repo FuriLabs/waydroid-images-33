@@ -1,26 +1,26 @@
-Source: waydroid-images-33
-Maintainer: Bardia Moshiri <fakeshell@bardia.tech>
+Source: andromeda-images-33
+Maintainer: Bardia Moshiri <bardia@furilabs.com>
 Section: misc
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                curl,
                tar,
-Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/furilabs/waydroid-images-33
-Vcs-Git: https://github.com/furilabs/waydroid-images-33.git
+Standards-Version: 4.7.0
+Vcs-Browser: https://github.com/furilabs/andromeda-images-33
+Vcs-Git: https://github.com/furilabs/andromeda-images-33.git
 
-Package: waydroid-system-33
+Package: andromeda-system-33
 Architecture: arm64
 Depends: ${misc:Depends}
-Provides: waydroid-system-image
-Description: Waydroid System Image
+Provides: andromeda-system-image
+Description: Andromeda System Image
  This package provides a working Android system image for
- Waydroid.
+ Andromeda.
 
-Package: waydroid-vendor-33
+Package: andromeda-vendor-33
 Architecture: arm64
 Depends: ${misc:Depends}
-Provides: waydroid-vendor-image
-Description: Waydroid Vendor Image - gsi-33
+Provides: andromeda-vendor-image
+Description: Andromeda Vendor Image - gsi-33
  This package provides a working Android vendor image for
- Waydroid.
+ Andromeda.
